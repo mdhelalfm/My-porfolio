@@ -1,0 +1,303 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    justify-content: space-around;
+}
+
+
+/* here style for nav bar */
+
+/* all primary */
+section {
+    margin-top: 130px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.background {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: bottom right, left;
+
+
+
+
+
+}
+
+.nav-title {
+    nav-titlefont-style: normal;
+    font-weight: 2000;
+    font-size: 60px;
+    margin-left: 2px;
+}
+
+.btn-primary {
+    color: white;
+    height: 64px;
+    background: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    align-items: center;
+}
+
+
+
+
+/* margin: 10px 5px 15px 20px;
+top margin is 10px
+right margin is 5px
+bottom margin is 15px
+left margin is 20px */
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 50px;
+
+}
+
+/* text and image area */
+
+/* .helal {
+    width: 585px;
+    height: 356px;
+    background: #f3c9ab;
+} */
+
+
+
+
+/* banner */
+.banner {
+    display: flex;
+    margin: 0 200px;
+}
+
+.banner-first-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    color: black;
+}
+
+.second-banner-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.bannertext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.contact {
+    width: 160px;
+    height: 64px;
+    border: #FD6E0A 1px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 19px;
+    margin-left: 30px;
+}
+
+/* main-section styles area */
+.section {
+    margin-top: 130px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+    border-radius: 10px;
+
+
+}
+
+
+.about {
+    width: 827px;
+    margin-top: 130px;
+    background: #FFF8F3;
+    padding: 130px 155px;
+
+}
+
+.sectoin-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.paragrap-style {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.about .info-description {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* My skill section */
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.My-skills {
+    margin-top: 130px;
+
+
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.skill-description {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* resume section */
+
+
+.resume {
+    margin-top: 130px;
+    margin-bottom: 113px;
+}
+
+.resume-content {
+    display: flex;
+    gap: 30px;
+}
+
+.resume-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+
+
+}
+
+.resume-subtitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+
+}
+
+.resume-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+/* contact style */
+
+.section-contact {
+    display: flex;
+    gap: 100px;
+
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.section-contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+
+
+}
+
+.section-contact a {
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+input {
+    height: 64px;
+}
